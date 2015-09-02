@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+ul li{
+  list-style-type: none;
+
+}
+.mainContainer{
+  width: 345px;
+  height: 593px;
+  background-color: #FFFBB7;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#headerContainer{
+  height: 74px;
+  position: relative;
+  background-color: #7FB2F0;
+}
+#rock{
+  width: 162px;
+  height: 207px;
+  margin: 5px;
+  background-color: #2EEBAD;
+  position: relative;
+  float: left;
+}
+#funk{
+  width: 162px;
+  height: 120px;
+  background-color: #E84183;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+#alternative{
+  width: 162px;
+  height: 207px;
+  background-color: #3696FF;
+  position: relative;
+  float: right;
+  margin: 5px;
+}
+#jazz{
+  width: 95px;
+  height: 290px;
+  background-color: #BB8CDD;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+#s80{
+  width: 58px;
+  height: 121px;
+/*  background-color: #F296FF;*/
+  background-color: #F26671;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+#s90{
+  width: 230px;
+  height: 157px;
+  background-color: #50DFF3;
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+/*Rock*/
+#back{
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#headerContainerRock{
+  position: relative;
+}
+.score{
+  /*font-family: 'Handlee', cursive;*/
+  font-family: helvetica;
+  font-size: 30px;
+  position: relative;
+  float: left;
+  margin-left: 43px;
+  margin-top: 15px;
+  font-weight: bold;
+  /*color: #FF6633;*/
+  color: #2BAA9C;
+   text-transform: capitalize;
+
+}
+#next{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/*.numWin{
+  font-size: 20px;
+  font-family: helvetica;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+}*/
+#parallelogram {
+  width: 80px;
+  height: 40px;
+  -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+       -o-transform: skew(20deg);
+  background: #FF9571;
+  position: relative;
+  float: left;
+  margin: 5px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: helvetica;
+  color: red;
+  text-decoration: none;
+  text-align: center;
+}
+#parallelogram1 {
+  width: 80px;
+  height: 40px;
+  -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+       -o-transform: skew(20deg);
+  background: #FF9571;
+  position: relative;
+  float:left;
+  margin: 5px;
+  padding-top: 2px;
+}
+.play{
+position: relative;
+float: left;
+margin-left: 70px;
+margin-top: 5px;
+}
+.searchinput{
+  position: relative;
+  /*float: left;*/
+  text-align: center;
+  margin-left: 25px;
+  font-size: 15px;
+  color: #3C56A6;
+  height: 28px;
+  outline-width: 2px;
+  border-radius: 2px;
+}
+#albumCover{
+  position: relative;
+  float: left;
+  margin-left: 23px;
+  margin-top: 20px;
+}
+
+#artistName{
+  /*position: relative;
+  float: left;*/
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-weight: bold;
+  margin-left: 135px;
+  margin-top: 20px;
+}
+#trackName{
+ display: block;
+  /*float: left;*/
+  /*font-size: 18px;*/
+  font-family: helvetica;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 5px;
+  margin-left: 135px;
+}
+#albumName{
+  display: block;
+  font-family: helvetica;
+  /*float: left;*/
+  margin-top: 5px;
+  margin-left: 135px;
+  font-family: 13px;
+}
+#guitar{
+position: relative;
+float: left;
+}
+.image {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;*/
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
