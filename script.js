@@ -56,6 +56,7 @@ $(function(){
       $("#artistName").text(artistName);
       $("#trackName").text(trackName);
       $("#albumName").text(albumName);
+      $(".info").show();
       countWin++;
       $("#parallelogram").text(countWin);
       /*$("#play").fadeOut();*/
@@ -71,7 +72,7 @@ $(function(){
         });
         $(this).attr("src","guitar.png");
       });
-      newSong();
+      /*newSong();*/
     }
     else{
       counLose++;
@@ -87,7 +88,15 @@ $(function(){
     }
       //clear search
       $(".searchinput").val("");
+      setTimeout(clearBord,2000);
+      function clearBord(){
+        console.log("you got it");
+        $(".guitar").removeClass("guitar").addClass("play");//removed img class
+        $(".info").hide();
+        // .attr("src","play.png");
+      }
   });
+
 });
 
 

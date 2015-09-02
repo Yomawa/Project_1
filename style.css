@@ -14,6 +14,12 @@ ul li{
   height: 74px;
   position: relative;
   background-color: #7FB2F0;
+  font-size: 50px;
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  /*padding-top: 20px;*/
 }
 #rock{
   width: 162px;
@@ -22,6 +28,13 @@ ul li{
   background-color: #2EEBAD;
   position: relative;
   float: left;
+  /*font*/
+  font-size: 50px;
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  /*padding-top: 20px;*/
 }
 #funk{
   width: 162px;
@@ -84,7 +97,7 @@ ul li{
   margin-top: 15px;
   font-weight: bold;
   /*color: #FF6633;*/
-  color: #2BAA9C;
+  color: #004b87;
    text-transform: capitalize;
 
 }
@@ -107,16 +120,17 @@ ul li{
   -webkit-transform: skew(20deg);
      -moz-transform: skew(20deg);
        -o-transform: skew(20deg);
-  background: #FF9571;
+  background: #d7c826;
   position: relative;
   float: left;
   margin: 5px;
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 31px;
   font-family: helvetica;
-  color: red;
+  color: #bf0d3e;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
 }
 #parallelogram1 {
   width: 80px;
@@ -124,17 +138,25 @@ ul li{
   -webkit-transform: skew(20deg);
      -moz-transform: skew(20deg);
        -o-transform: skew(20deg);
-  background: #FF9571;
+  background: #d7c826;
   position: relative;
   float:left;
   margin: 5px;
   padding-top: 2px;
+
+  font-size: 31px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #bf0d3e;
+  text-decoration: none;
+  text-align: center;
 }
 .play{
 position: relative;
 float: left;
 margin-left: 70px;
 margin-top: 5px;
+content: url("play.png");
 }
 .searchinput{
   position: relative;
@@ -164,6 +186,7 @@ margin-top: 5px;
   font-weight: bold;
   margin-left: 135px;
   margin-top: 20px;
+  color: #004b87;
 }
 #trackName{
  display: block;
@@ -174,6 +197,7 @@ margin-top: 5px;
   font-style: italic;
   margin-top: 5px;
   margin-left: 135px;
+  color: #004b87;
 }
 #albumName{
   display: block;
@@ -182,8 +206,10 @@ margin-top: 5px;
   margin-top: 5px;
   margin-left: 135px;
   font-family: 13px;
+  color: #004b87;
 }
-#guitar{
+/*i had it as a id*/
+.guitar{
 position: relative;
 float: left;
 }
